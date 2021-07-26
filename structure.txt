@@ -1,0 +1,14 @@
+.
+├── structure.txt
+├── subworkflows
+│   ├── subworkflow.wdl
+│   └── tasks
+│       └── tasks.wdl
+├── utils
+│   └── utils.wdl
+└── workflows
+    ├── dep.zip
+    ├── workflow.inputs.json
+    └── workflow.wdl
+
+4 directories, 7 files
