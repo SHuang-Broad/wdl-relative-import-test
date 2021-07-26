@@ -1,8 +1,8 @@
 version 1.0
 
 
-import "../subworkflows/subworkflow.wdl" as first_branching
-import "../utils/utils.wdl" as utilities
+import "subworkflows/subworkflow.wdl" as first_branching
+import "utils/utils.wdl" as utilities
 
 workflow End2EndWorkflow {
 

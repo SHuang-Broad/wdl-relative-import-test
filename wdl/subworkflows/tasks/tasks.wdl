@@ -16,6 +16,6 @@ task LeafNode {
 		File formatted_msg = stdout()
 	}
 	runtime {
-		container: "ubuntu:20.04"
+		docker: "ubuntu:latest"
 	}
 }

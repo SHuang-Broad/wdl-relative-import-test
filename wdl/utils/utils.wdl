@@ -17,7 +17,7 @@ task OverallUtil {
 	}
 
 	runtime {
-		container: "ubuntu:20.04"
+		docker: "ubuntu:latest"
 	}
 
 }
@@ -37,6 +37,6 @@ task SubworkflowUtil {
 		String pass_on_msg = stdout()
 	}
 	runtime {
-		container: "ubuntu:20.04"
+		docker: "ubuntu:latest"
 	}
 }
